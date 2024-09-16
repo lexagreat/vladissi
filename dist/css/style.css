@@ -395,6 +395,16 @@ body.lock {
   opacity: 1;
 }
 
+.thanks-modal .project-modal__wrapper {
+  height: 394px;
+}
+
+.thanks-modal .project-modal__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 @media (max-width: 1200px) {
   .project-modal__content {
     max-width: calc(100% - 40px);
@@ -432,6 +442,10 @@ body.lock {
     gap: 12px;
     margin-top: 24px;
     margin-bottom: 12px;
+  }
+
+  .thanks-modal .project-modal__wrapper {
+    height: unset;
   }
 }
 
